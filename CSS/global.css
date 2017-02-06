@@ -1,3 +1,173 @@
-.box {
-  background: red;
+* {
+    box-sizing: border-box;
 }
+
+body {
+    padding: 50px;
+}
+
+header {
+height: 45px;
+}
+
+.nav-container {
+    margin: 0 auto;
+    display: flex;
+    max-width: 1200px;
+}
+
+.nav-container ul {
+    display: flex;
+    
+}
+
+li {
+    padding: 10px;
+    list-style-type: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row-treeimage {
+    display: flex;
+    background-image: url(../images/assets/background.jpg);
+    height: 200px;
+    color: white;
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.row-account-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column-account-options {
+    display: flex;
+    height: 175px;
+    width: 225px;
+    margin: 25px 25px 0px 25px;
+    text-align: center;
+    
+}
+
+.personal {
+    width: 100%;
+    background-color: #509252;
+    color: lightgrey;
+    justify-content: center;
+    align-content: center;
+    padding-top: 30px;
+}
+
+.smallbusiness {
+    width: 100%;
+    background-color: #2A4987;
+    color: lightgrey;
+    justify-content: center;
+    align-content: center;
+    padding-top: 30px;
+}
+
+.enterprise {
+    width: 100%;
+    background-color: #111111;
+    color:lightgrey;
+    justify-content: center;
+    align-content: center;
+    padding-top: 30px;
+}
+
+.button-background {
+    background-color: white;
+    border: none;
+}
+
+.choosebutton {
+    border-radius: 17px;
+    background-color: white;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+.price {
+    font-size: 60px;
+    color: white;
+}
+
+.row-account-specs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column-account-specs {
+    display: flex;
+    text-align: center;
+    height: 400px;
+    width: 225px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 25px 0px 25px;
+    background-color:#F7F7F7;
+    padding: -10px;
+}
+
+ul {
+    padding: 0px;
+    color: darkslategray;
+}
+
+.row-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column-details {
+    height: 200px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    font-size: 14px;
+    padding: 10px;
+}
+
+h4 {
+    color: black
+}
+
+.row-footer {
+    display: flex;
+    height: 50px;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: black;
+    color: lightgrey;
+}
+
+.row-footer a {
+    color: white;
+    text-decoration: underline;
+}
+
