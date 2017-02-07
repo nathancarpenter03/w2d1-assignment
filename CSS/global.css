@@ -20,12 +20,12 @@ header {
   display: flex;
 }
 
-li {
+.nav-container ul li {
   padding: 10px;
   list-style-type: none;
 }
 
-a {
+.nav-container ul li a {
   text-decoration: none;
   color: gray;
 }
@@ -118,12 +118,22 @@ button:hover {
   justify-content: center;
   margin: 0px 25px 0px 25px;
   background-color: #F7F7F7;
-  padding: -10px;
 }
 
-ul {
+.column-account-specs ul {
   padding: 0px;
   color: darkslategray;
+}
+
+.column-account-specs li {
+  padding: 10px;
+  list-style-type: none;
+  border-bottom: solid grey 1px;
+}
+
+.column-account-specs li a {
+  text-decoration: none;
+  color: gray;
 }
 
 .row-details {
@@ -142,7 +152,7 @@ ul {
   padding: 10px;
 }
 
-h4 {
+.column-details h4 {
   color: #111111;
 }
 

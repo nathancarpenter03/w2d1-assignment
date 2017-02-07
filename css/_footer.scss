@@ -7,9 +7,9 @@
     margin-top: 15px;
     background-color: $colorEnterpriseBlack;
     color: $colorLightGray;
+        a {
+            color: $colorWhite;
+            text-decoration: underline;
+        }
 }
 
-.row-footer a {
-    color: $colorWhite;
-    text-decoration: underline;
-}
