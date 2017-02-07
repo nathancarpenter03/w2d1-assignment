@@ -1,0 +1,74 @@
+.row-account-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        .personal  {
+            width: 100%;
+            background-color: $colorPersonalGreen;
+            padding-top: 30px;
+        }
+        .smallbusiness {
+            width: 100%;
+            background-color: $colorSmallBusinessBlue;
+            padding-top: 30px;
+        }
+        .enterprise {
+            width: 100%;
+            background-color: $colorEnterpriseBlack;
+            padding-top: 30px;
+        }
+}
+
+.column-account-options {
+    display: flex;
+    height: 175px;
+    width: 225px;
+    margin: 25px 25px 0px 25px;
+    text-align: center;
+    color: $colorLightGray;
+    justify-content: center;
+    align-content: center;
+
+.button-background {
+    background-color: $colorWhite;
+    border: none;
+}
+
+.choosebutton {
+    border-radius: 17px;
+    background-color: $colorWhite;
+    border: 1px solid $colorGray;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: $colorLightBlue;
+}
+
+.price {
+    font-size: 60px;
+    color: $colorWhite;
+}
+
+.row-account-specs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column-account-specs {
+    display: flex;
+    text-align: center;
+    height: 400px;
+    width: 225px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 25px 0px 25px;
+    background-color:$colorAccountSpecsGray;
+    padding: -10px;
+}
+
+ul {
+    padding: 0px;
+    color: $colorDarkSlateGray;
+}

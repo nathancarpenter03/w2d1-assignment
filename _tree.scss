@@ -1,0 +1,12 @@
+.row-treeimage {
+    display: flex;
+    background-image: $backgroundImage;
+    height: 200px;
+    color: $colorWhite;
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    text-align: center;
+}
+

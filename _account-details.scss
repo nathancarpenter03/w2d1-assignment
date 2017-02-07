@@ -1,0 +1,19 @@
+.row-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column-details {
+    height: 200px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    color: $colorGray;
+    font-size: 14px;
+    padding: 10px;
+}
+
+h4 {
+    color: $colorEnterpriseBlack;
+}

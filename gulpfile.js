@@ -5,7 +5,7 @@ const gulp = require('gulp')
 const sass = require('gulp-sass')
 const browserSync = require('browser-sync').create()
 
-// gulp.task('makeCoffee', function(){} for example 
+
 
 // Sync with browser, proxy through Node server on 8080
 gulp.task('browserSync', function() {

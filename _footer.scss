@@ -1,0 +1,15 @@
+.row-footer {
+    display: flex;
+    height: 50px;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: $colorEnterpriseBlack;
+    color: $colorLightGray;
+}
+
+.row-footer a {
+    color: $colorWhite;
+    text-decoration: underline;
+}

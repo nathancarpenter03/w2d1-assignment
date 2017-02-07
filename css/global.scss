@@ -1,0 +1,41 @@
+// Variables
+$colorGray: gray;
+$colorWhite: white;
+$colorLightGray: lightgray;
+$colorEnterpriseBlack: #111111;
+$colorPersonalGreen: #509252;
+$colorSmallBusinessBlue: #2A4987;
+$backgroundImage: url(../images/assets/background.jpg);
+$colorLightBlue: lightblue;
+$colorAccountSpecsGray: #F7F7F7;
+$colorDarkSlateGray: darkslategray;
+
+// Styling
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px;
+}
+
+//Header Partial
+@import 'header';
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+// Tree Image Partial
+@import 'tree';
+
+// Account Options Partial
+@import 'account-options';
+
+// Account Details Partial
+@import 'account-details';
+
+// Footer Partial
+@import 'footer'; 
+
